@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Bakir Kammoun — Full-Stack Web & WebGL Developer from Tunisia. React, Django, Spring Boot, Unity, WebGL, Three.js."/>
+  <title>Bakir Kammoun | Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Bakir<span class="dot"></span>dev</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact" class="btn btn-outline btn-sm nav-cta" id="nav-hire">Hire Me →</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <!-- LEFT -->
+      <div>
+        <div class="status-row"><div class="status-dot"></div>Available for opportunities</div>
+        <div class="hero-label">✦ Full-Stack Web &amp; WebGL Developer</div>
+        <h1 class="hero-title">Building <span class="underline-lime">Digital</span><br>Experiences<br><span>Full-Stack &amp; IoT Developer</span></h1>
+        <p class="hero-sub">Full-Stack developer specialized in Multimedia from Sidi Bouzid, Tunisia. I craft fast, beautiful and interactive web apps — from React frontends to Unity/WebGL games.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-dark btn-arrow" id="hero-work-btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline btn-arrow" id="hero-contact-btn">Get In Touch</a>
+        </div>
+        <div class="hero-meta">
+          <a href="mailto:bakir.kammoun22@gmail.com" class="hero-chip" id="hc-email">✉️ bakir.kammoun22@gmail.com</a>
+          <a href="https://github.com/bakirkammoun" target="_blank" rel="noopener" class="hero-chip" id="hc-gh">⌥ 11 repos on GitHub</a>
+          <a href="https://www.linkedin.com/in/bakir-kammoun-399984383/" target="_blank" rel="noopener" class="hero-chip" id="hc-li">💼 LinkedIn</a>
+          <a href="https://www.instagram.com/bakir__k_ammoun/" target="_blank" rel="noopener" class="hero-chip" id="hc-ig">📸 @bakir__k_ammoun</a>
+          <a href="tel:+21696261972" class="hero-chip" id="hc-phone">📞 +216 96 261 972</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item"><span class="stat-num" data-target="11" data-suffix="">0</span><span class="stat-lbl">GitHub Repos</span></div>
+          <div class="stat-item"><span class="stat-num" data-target="20" data-suffix="+">0</span><span class="stat-lbl">Technologies</span></div>
+          <div class="stat-item"><span class="stat-num" data-target="4" data-suffix="">0</span><span class="stat-lbl">Internships</span></div>
+          <div class="stat-item"><span class="stat-num" data-target="5" data-suffix="">0</span><span class="stat-lbl">Languages</span></div>
+        </div>
+      </div>
+      <!-- RIGHT -->
+      <div class="hero-img-wrap hero-img-anim">
+        <div class="hero-badge hb1 hb-lime"><span class="hb-icon">🎮</span><span class="hb-value">Unity</span><span class="hb-label">WebGL Dev</span></div>
+        <div class="hero-badge hb2"><span class="hb-icon">⚡</span><span class="hb-value">Full-Stack</span><span class="hb-label">Web Developer</span></div>
+        <div class="hero-badge hb3"><span class="hb-icon">🤖</span><span class="hb-value">AI / IoT</span><span class="hb-label">Certified</span></div>
+        <div class="hero-img-box">
+          <img src="bakir-kammoun-profile.jpg" alt="Bakir Kammoun — Full-Stack Developer" width="360" height="400" id="hero-main-img"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div id="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">⚛ React<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🐍 Django<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🌿 Spring Boot<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">⬡ Unity<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">◈ WebGL<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">▲ Next.js<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">JS TypeScript<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🐳 Docker<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🍃 MongoDB<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🟢 NVIDIA AI<span class="marquee-sep">✦</span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="marquee-item">⚛ React<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🐍 Django<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🌿 Spring Boot<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">⬡ Unity<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">◈ WebGL<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">▲ Next.js<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">JS TypeScript<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🐳 Docker<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🍃 MongoDB<span class="marquee-sep">✦</span></span>
+    <span class="marquee-item">🟢 NVIDIA AI<span class="marquee-sep">✦</span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section-pt section-pb">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="pill">01 · About Me</span>
+      <h2>Who is <span style="text-decoration:underline;text-decoration-color:#b9ff66">Bakir?</span></h2>
+      <p class="sec-desc">A passionate developer building meaningful digital products across web and game platforms.</p>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p class="reveal rd1">I'm <strong>Bakir Kammoun</strong>, a Full-Stack Web Developer specialized in Multimedia, born on <strong>09 October 2003</strong> in Sidi Bouzid, Tunisia. I hold a <strong>Bachelor's Degree in IT: Multimedia &amp; Web Development</strong> from ISET Mahdia (2022–2025).</p>
+        <p class="reveal rd2">My passion lies in building <strong>fast, beautiful, and interactive experiences</strong> — from React-powered frontends and Django REST APIs to real-time 3D WebGL environments with Unity. I care deeply about both aesthetics and performance.</p>
+        <p class="reveal rd3">I'm also trained in <strong>Agile/Scrum methodologies</strong>, entrepreneurship via APII Mahdia, and I hold NVIDIA certifications in Deep Learning and NLP. I speak Arabic, French, English, Italian, and Spanish.</p>
+        <div class="about-info-grid reveal rd4">
+          <div class="about-info-item"><div class="about-info-key">Born</div><div class="about-info-val">09 October 2003</div></div>
+          <div class="about-info-item"><div class="about-info-key">Location</div><div class="about-info-val">Sidi Bouzid, Tunisia</div></div>
+          <div class="about-info-item"><div class="about-info-key">Degree</div><div class="about-info-val">BSc IT – Multimedia</div></div>
+          <div class="about-info-item"><div class="about-info-key">Languages</div><div class="about-info-val">AR · FR · EN · IT · ES</div></div>
+          <div class="about-info-item"><div class="about-info-key">Email</div><div class="about-info-val">bakir.kammoun22@gmail.com</div></div>
+          <div class="about-info-item"><div class="about-info-key">Phone</div><div class="about-info-val">+216 96 261 972</div></div>
+          <div class="about-info-item"><div class="about-info-key">Methodology</div><div class="about-info-val">Agile / Scrum / Kanban</div></div>
+          <div class="about-info-item"><div class="about-info-key">Status</div><div class="about-info-val">✅ Open to Work</div></div>
+        </div>
+      </div>
+      <div class="reveal rd3">
+        <div class="code-box">
+          <div class="code-topbar"><div class="cdot"></div><div class="cdot"></div><div class="cdot"></div><span class="cfile">bakir.dev.ts</span></div>
+          <div class="code-body">
+            <div class="cln"><span class="clno">1</span><span><span class="ck">const</span> <span class="cv">me</span> <span class="cb">= {</span></span></div>
+            <div class="cln"><span class="clno">2</span><span>&nbsp;&nbsp;<span class="cp">name</span>: <span class="cs">'Bakir Kammoun'</span>,</span></div>
+            <div class="cln"><span class="clno">3</span><span>&nbsp;&nbsp;<span class="cp">role</span>: <span class="cs">'Full-Stack &amp; WebGL Dev'</span>,</span></div>
+            <div class="cln"><span class="clno">4</span><span>&nbsp;&nbsp;<span class="cp">location</span>: <span class="cs">'Sidi Bouzid 🇹🇳'</span>,</span></div>
+            <div class="cln"><span class="clno">5</span><span>&nbsp;&nbsp;<span class="cp">stack</span>: <span class="cb">[</span><span class="cs">'React'</span>, <span class="cs">'Django'</span>, <span class="cs">'Unity'</span><span class="cb">]</span>,</span></div>
+            <div class="cln"><span class="clno">6</span><span>&nbsp;&nbsp;<span class="cp">ai</span>: <span class="cb">[</span><span class="cs">'Deep Learning'</span>, <span class="cs">'NLP'</span><span class="cb">]</span>,</span></div>
+            <div class="cln"><span class="clno">7</span><span>&nbsp;&nbsp;<span class="cp">iot</span>: <span class="cb">[</span><span class="cs">'ESP32'</span>, <span class="cs">'MQTT'</span><span class="cb">]</span>,</span></div>
+            <div class="cln"><span class="clno">8</span><span>&nbsp;&nbsp;<span class="cp">langs</span>: <span class="cn">5</span>, <span class="cp">available</span>: <span class="ck">true</span>,</span></div>
+            <div class="cln"><span class="clno">9</span><span><span class="cb">}</span></span></div>
+            <div class="cln"><span class="clno">10</span><span><span class="cc">// Always learning 🚀</span></span></div>
+            <div class="cln"><span class="clno">11</span><span><span class="ck">export default</span> <span class="cv">me</span>;</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section-pt section-pb">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="pill">02 · Skills</span>
+      <h2>Tech <span style="text-decoration:underline;text-decoration-color:#b9ff66">Stack</span></h2>
+      <p class="sec-desc">20+ technologies across the full development spectrum — web, games, databases and tools.</p>
+    </div>
+    <div class="skills-tabs reveal" id="skills-tabs">
+      <button class="s-tab active" data-cat="all">All</button>
+      <button class="s-tab" data-cat="frontend">Frontend</button>
+      <button class="s-tab" data-cat="backend">Backend</button>
+      <button class="s-tab" data-cat="database">Database</button>
+      <button class="s-tab" data-cat="gamedev">Game Dev</button>
+      <button class="s-tab" data-cat="tools">Tools</button>
+    </div>
+    <div class="skills-grid" id="skills-grid">
+      <div class="skill-card lime reveal rd1" data-cat="frontend"><div class="sk-top"><div class="sk-ico">🌐</div><div><div class="sk-name">HTML5</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="95"></div></div><span class="sk-pct">95%</span></div>
+      <div class="skill-card reveal rd2" data-cat="frontend"><div class="sk-top"><div class="sk-ico">🎨</div><div><div class="sk-name">CSS3</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="90"></div></div><span class="sk-pct">90%</span></div>
+      <div class="skill-card dark reveal rd3" data-cat="frontend"><div class="sk-top"><div class="sk-ico">JS</div><div><div class="sk-name">JavaScript</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="88"></div></div><span class="sk-pct">88%</span></div>
+      <div class="skill-card reveal rd4" data-cat="frontend"><div class="sk-top"><div class="sk-ico">TS</div><div><div class="sk-name">TypeScript</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="75"></div></div><span class="sk-pct">75%</span></div>
+      <div class="skill-card lime reveal rd1" data-cat="frontend"><div class="sk-top"><div class="sk-ico">⚛</div><div><div class="sk-name">React</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="85"></div></div><span class="sk-pct">85%</span></div>
+      <div class="skill-card reveal rd2" data-cat="frontend"><div class="sk-top"><div class="sk-ico">V</div><div><div class="sk-name">Vue.js</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="70"></div></div><span class="sk-pct">70%</span></div>
+      <div class="skill-card reveal rd3" data-cat="frontend"><div class="sk-top"><div class="sk-ico">A</div><div><div class="sk-name">Angular</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="65"></div></div><span class="sk-pct">65%</span></div>
+      <div class="skill-card dark reveal rd4" data-cat="frontend"><div class="sk-top"><div class="sk-ico">▲</div><div><div class="sk-name">Next.js</div><div class="sk-cat">Frontend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="70"></div></div><span class="sk-pct">70%</span></div>
+      <div class="skill-card lime reveal rd1" data-cat="backend"><div class="sk-top"><div class="sk-ico">Dj</div><div><div class="sk-name">Django</div><div class="sk-cat">Backend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="80"></div></div><span class="sk-pct">80%</span></div>
+      <div class="skill-card reveal rd2" data-cat="backend"><div class="sk-top"><div class="sk-ico">⬡</div><div><div class="sk-name">Node.js</div><div class="sk-cat">Backend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="75"></div></div><span class="sk-pct">75%</span></div>
+      <div class="skill-card dark reveal rd3" data-cat="backend"><div class="sk-top"><div class="sk-ico">🌿</div><div><div class="sk-name">Spring Boot</div><div class="sk-cat">Backend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="72"></div></div><span class="sk-pct">72%</span></div>
+      <div class="skill-card reveal rd4" data-cat="backend"><div class="sk-top"><div class="sk-ico">🐍</div><div><div class="sk-name">Python</div><div class="sk-cat">Backend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="78"></div></div><span class="sk-pct">78%</span></div>
+      <div class="skill-card reveal rd5" data-cat="backend"><div class="sk-top"><div class="sk-ico">PHP</div><div><div class="sk-name">PHP</div><div class="sk-cat">Backend</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="65"></div></div><span class="sk-pct">65%</span></div>
+      <div class="skill-card lime reveal rd1" data-cat="database"><div class="sk-top"><div class="sk-ico">🗄</div><div><div class="sk-name">MySQL</div><div class="sk-cat">Database</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="82"></div></div><span class="sk-pct">82%</span></div>
+      <div class="skill-card dark reveal rd2" data-cat="database"><div class="sk-top"><div class="sk-ico">🍃</div><div><div class="sk-name">MongoDB</div><div class="sk-cat">Database</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="75"></div></div><span class="sk-pct">75%</span></div>
+      <div class="skill-card lime reveal rd1" data-cat="gamedev"><div class="sk-top"><div class="sk-ico">⬡</div><div><div class="sk-name">Unity</div><div class="sk-cat">Game Dev</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="82"></div></div><span class="sk-pct">82%</span></div>
+      <div class="skill-card dark reveal rd2" data-cat="gamedev"><div class="sk-top"><div class="sk-ico">◈</div><div><div class="sk-name">WebGL</div><div class="sk-cat">Game Dev</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="76"></div></div><span class="sk-pct">76%</span></div>
+      <div class="skill-card reveal rd3" data-cat="gamedev"><div class="sk-top"><div class="sk-ico">3D</div><div><div class="sk-name">Three.js</div><div class="sk-cat">Game Dev</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="70"></div></div><span class="sk-pct">70%</span></div>
+      <div class="skill-card lime reveal rd1" data-cat="tools"><div class="sk-top"><div class="sk-ico">⎇</div><div><div class="sk-name">Git / GitHub</div><div class="sk-cat">Tools</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="88"></div></div><span class="sk-pct">88%</span></div>
+      <div class="skill-card dark reveal rd2" data-cat="tools"><div class="sk-top"><div class="sk-ico">🐳</div><div><div class="sk-name">Docker</div><div class="sk-cat">Tools</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="65"></div></div><span class="sk-pct">65%</span></div>
+      <div class="skill-card reveal rd3" data-cat="tools"><div class="sk-top"><div class="sk-ico">✦</div><div><div class="sk-name">Figma</div><div class="sk-cat">Tools</div></div></div><div class="sk-bar-bg"><div class="sk-bar" data-pct="72"></div></div><span class="sk-pct">72%</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section-pt section-pb">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="pill">03 · Experience</span>
+      <h2>Work <span style="text-decoration:underline;text-decoration-color:#b9ff66">History</span></h2>
+      <p class="sec-desc">My journey through internships, training, and real-world projects.</p>
+    </div>
+    <div class="exp-list reveal">
+
+      <div class="exp-item open" id="exp-0">
+        <div class="exp-header" data-index="0">
+          <span class="exp-num">01</span>
+          <div class="exp-title-block">
+            <div class="exp-role">Full-Stack Developer — Final Year Project</div>
+            <div class="exp-company">SMARTECH · Mahdia, Tunisia</div>
+            <div class="exp-meta-row">📅 Feb 2025 – May 2025 &nbsp;|&nbsp; End-of-Study Internship</div>
+          </div>
+          <span class="exp-badge">2025</span>
+          <span class="exp-toggle">+</span>
+        </div>
+        <div class="exp-body" style="max-height:500px">
+          <div class="exp-body-inner">
+            <ul class="exp-desc">
+              <li>Built an intelligent training management platform: courses, events, registrations and user roles</li>
+              <li>Developed AI modules: quiz system, chatbot assistant, automatic speech-to-text subtitling</li>
+              <li>Integrated online payments, real-time notifications and statistical dashboards</li>
+              <li>Full backend (Django) &amp; frontend (React) development participation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item" id="exp-1">
+        <div class="exp-header" data-index="1">
+          <span class="exp-num">02</span>
+          <div class="exp-title-block">
+            <div class="exp-role">IoT Developer Intern</div>
+            <div class="exp-company">Pépinière d'Entreprises APII · Mahdia, Tunisia</div>
+            <div class="exp-meta-row">📅 January 2026</div>
+          </div>
+          <span class="exp-badge">2026</span>
+          <span class="exp-toggle">+</span>
+        </div>
+        <div class="exp-body">
+          <div class="exp-body-inner">
+            <ul class="exp-desc">
+              <li>Embedded programming on Arduino, ESP32 &amp; Raspberry Pi microcontrollers</li>
+              <li>IoT protocols: MQTT, HTTP, CoAP — sensors &amp; actuators integration</li>
+              <li>Simulation with Wokwi, Tinkercad and Node-RED; data visualization and monitoring</li>
+              <li>Programming in Python / C / C++ for embedded systems; rapid prototyping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item" id="exp-2">
+        <div class="exp-header" data-index="2">
+          <span class="exp-num">03</span>
+          <div class="exp-title-block">
+            <div class="exp-role">Web Developer Intern</div>
+            <div class="exp-company">NOVINANET · Monastir, Tunisia</div>
+            <div class="exp-meta-row">📅 Jan 2024 – Feb 2024</div>
+          </div>
+          <span class="exp-badge">2024</span>
+          <span class="exp-toggle">+</span>
+        </div>
+        <div class="exp-body">
+          <div class="exp-body-inner">
+            <ul class="exp-desc">
+              <li>Developed a full e-commerce website using PrestaShop CMS</li>
+              <li>Integrated payment modules and built order management workflows</li>
+              <li>Improved UI/UX and optimized the shopping experience</li>
+              <li>Collaborated in a dev team to optimize site performance and SEO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item" id="exp-3">
+        <div class="exp-header" data-index="3">
+          <span class="exp-num">04</span>
+          <div class="exp-title-block">
+            <div class="exp-role">Telecom Systems Intern</div>
+            <div class="exp-company">TUNISIE TÉLÉCOM · Mahdia, Tunisia</div>
+            <div class="exp-meta-row">📅 Jan 2023 – Feb 2023</div>
+          </div>
+          <span class="exp-badge">2023</span>
+          <span class="exp-toggle">+</span>
+        </div>
+        <div class="exp-body">
+          <div class="exp-body-inner">
+            <ul class="exp-desc">
+              <li>Introduction to telecom systems and network infrastructure technologies</li>
+              <li>Familiarization with internal information systems of the company</li>
+              <li>Observation of technical and operational processes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item" id="exp-4">
+        <div class="exp-header" data-index="4">
+          <span class="exp-num">05</span>
+          <div class="exp-title-block">
+            <div class="exp-role">Innovation &amp; Entrepreneurship Training</div>
+            <div class="exp-company">Pépinière APII Mahdia · Mahdia, Tunisia</div>
+            <div class="exp-meta-row">📅 January 2026 &nbsp;|&nbsp; 2 weeks intensive</div>
+          </div>
+          <span class="exp-badge">Training</span>
+          <span class="exp-toggle">+</span>
+        </div>
+        <div class="exp-body">
+          <div class="exp-body-inner">
+            <ul class="exp-desc">
+              <li>Lean Canvas, Business Model Canvas &amp; startup ecosystems</li>
+              <li>Agile / Scrum project management methodologies</li>
+              <li>Financial feasibility study, pitching &amp; digital branding techniques</li>
+              <li>Startup Act regulations and certification procedures in Tunisia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section-pt section-pb">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="pill">04 · Gallery</span>
+      <h2>Life <span style="text-decoration:underline;text-decoration-color:#b9ff66">&amp; Achievement</span></h2>
+      <p class="sec-desc">A glimpse into my professional journey and achievements. ✦ Optimized for Google Search.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gal-item gal-lg" id="gal1">
+        <img src="bakir-kammoun-graduation.jpg" alt="Bakir Kammoun — Graduation and Certification Achievement" loading="lazy"/>
+        <div class="gal-overlay"><span>Achievement 🎓</span></div>
+      </div>
+      <div class="gal-item" id="gal2">
+        <img src="bakir-kammoun-lifestyle-1.jpg" alt="Bakir Kammoun — Developer at work" loading="lazy"/>
+        <div class="gal-overlay"><span>Lifestyle 💻</span></div>
+      </div>
+      <div class="gal-item" id="gal3">
+        <img src="bakir-kammoun-lifestyle-2.jpg" alt="Bakir Kammoun — Professional headshot" loading="lazy"/>
+        <div class="gal-overlay"><span>Professional 💼</span></div>
+      </div>
+      <div class="gal-item gal-tall" id="gal4">
+        <img src="bakir-kammoun-lifestyle-3.jpg" alt="Bakir Kammoun — Digital Entrepreneur" loading="lazy"/>
+        <div class="gal-overlay"><span>Vision 🚀</span></div>
+      </div>
+      <div class="gal-item" id="gal5">
+        <img src="bakir-kammoun-profile.jpg" alt="Bakir Kammoun — Full-Stack Web Developer Tunisia" loading="lazy"/>
+        <div class="gal-overlay"><span>Identity ✦</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section-pt section-pb">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="pill">04 · Projects</span>
+      <h2>Real <span style="text-decoration:underline;text-decoration-color:#b9ff66">GitHub</span> Projects</h2>
+      <p class="sec-desc">11 public repositories — here are the 6 most impressive ones from <a href="https://github.com/bakirkammoun" target="_blank" rel="noopener" style="color:#191a23;font-weight:700;text-decoration:underline;text-decoration-color:#b9ff66">github.com/bakirkammoun</a>.</p>
+    </div>
+    <div class="projects-grid">
+
+      <!-- 1: Three.js 3D Game -->
+      <article class="proj-card dark-card reveal rd1">
+        <div class="proj-thumb">
+          <img src="proj_threejs.png" alt="3D Game with Three.js" loading="lazy"/>
+          <span class="proj-type-tag">WebGL / 3D</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">3D Games with Three.js</h3>
+          <p class="proj-desc">Interactive 3D experiments and games built with Three.js and WebGL. Features particle effects, physics simulation, and integrated soundscapes running directly in the browser.</p>
+          <div class="proj-tags"><span class="proj-tag">Three.js</span><span class="proj-tag">WebGL</span><span class="proj-tag">JavaScript</span><span class="proj-tag">Physics</span></div>
+          <div class="proj-footer">
+            <a href="https://github.com/bakirkammoun/Jeux-3D-avec-three.js" target="_blank" rel="noopener" class="btn btn-lime btn-sm btn-arrow" id="p1-gh">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2: E-learning Platform -->
+      <article class="proj-card reveal rd2">
+        <div class="proj-thumb">
+          <img src="proj_elearning.png" alt="E-learning Platform" loading="lazy"/>
+          <span class="proj-type-tag">Full Stack</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">E-Learning Platform</h3>
+          <p class="proj-desc">A feature-rich e-learning platform for digital education management. Includes portals for Admins, Teachers, and Students with course management and event scheduling.</p>
+          <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">Node.js</span><span class="proj-tag">MongoDB</span><span class="proj-tag">Express</span></div>
+          <div class="proj-footer">
+            <a href="https://github.com/bakirkammoun/Plateforme-e-learning" target="_blank" rel="noopener" class="btn btn-dark btn-sm btn-arrow" id="p2-gh">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3: IoT Predictive Maintenance -->
+      <article class="proj-card lime-card reveal rd3">
+        <div class="proj-thumb">
+          <img src="proj_iot.png" alt="IoT Predictive Maintenance" loading="lazy"/>
+          <span class="proj-type-tag">IoT / Full Stack</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">Smart Predictive Maintenance</h3>
+          <p class="proj-desc">IoT-driven predictive maintenance for industrial equipment monitoring. Real-time data from ESP32 via MQTT, centralized dashboard for failure prediction and analytics.</p>
+          <div class="proj-tags"><span class="proj-tag">ESP32</span><span class="proj-tag">MQTT</span><span class="proj-tag">React</span><span class="proj-tag">JavaScript</span></div>
+          <div class="proj-footer">
+            <a href="https://github.com/bakirkammoun/Maintenance-intelligente-" target="_blank" rel="noopener" class="btn btn-dark btn-sm btn-arrow" id="p3-gh">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4: MERN Real-time Chat -->
+      <article class="proj-card dark-card reveal rd1">
+        <div class="proj-thumb">
+          <img src="proj_chat.png" alt="MERN Real-time Chat App" loading="lazy"/>
+          <span class="proj-type-tag">MERN / WebSocket</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">MERN Real-Time Chat App</h3>
+          <p class="proj-desc">High-performance real-time messaging application with instant message delivery using WebSocket (Socket.IO) and a modern chat interface.</p>
+          <div class="proj-tags"><span class="proj-tag">MongoDB</span><span class="proj-tag">Express</span><span class="proj-tag">React</span><span class="proj-tag">Socket.IO</span></div>
+          <div class="proj-footer">
+            <a href="https://github.com/bakirkammoun/Mern_real_time_chat" target="_blank" rel="noopener" class="btn btn-lime btn-sm btn-arrow" id="p4-gh">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5: React Posts with Filter -->
+      <article class="proj-card reveal rd2">
+        <div class="proj-thumb">
+          <img src="proj_react_posts.png" alt="React Posts with Filter" loading="lazy"/>
+          <span class="proj-type-tag">React / Frontend</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">React Posts Experience</h3>
+          <p class="proj-desc">A modern React app allowing users to create and share experience posts. Features an advanced filtering system by category, date and popularity with a responsive SCSS-styled UI.</p>
+          <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">SCSS</span><span class="proj-tag">JavaScript</span><span class="proj-tag">Filtering</span></div>
+          <div class="proj-footer">
+            <a href="https://github.com/bakirkammoun/react-post-experiance-avec-filtre--front" target="_blank" rel="noopener" class="btn btn-dark btn-sm btn-arrow" id="p5-gh">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6: Hotel Reservation Angular -->
+      <article class="proj-card lime-card reveal rd3">
+        <div class="proj-thumb">
+          <img src="proj_hotel.png" alt="Hotel Reservation Angular" loading="lazy"/>
+          <span class="proj-type-tag">Angular / TypeScript</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">Hotel Reservation System</h3>
+          <p class="proj-desc">Full CRUD management system for hotel reservations built with Angular. Manage bookings and room availability with add, edit, delete and search features.</p>
+          <div class="proj-tags"><span class="proj-tag">Angular</span><span class="proj-tag">TypeScript</span><span class="proj-tag">CRUD</span><span class="proj-tag">REST API</span></div>
+          <div class="proj-footer">
+            <a href="https://github.com/bakirkammoun/Angular--reservation-dans-un-hotel---ajouter-modifier-suprimer" target="_blank" rel="noopener" class="btn btn-dark btn-sm btn-arrow" id="p6-gh">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- See all on GitHub -->
+    <div class="reveal" style="text-align:center;margin-top:48px">
+      <a href="https://github.com/bakirkammoun" target="_blank" rel="noopener" class="btn btn-outline" id="all-repos-btn" style="border-width:2px">
+        ⌥ See all 11 repositories on GitHub →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section-pt section-pb">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="pill">05 · Certifications</span>
+      <h2>What I've <span style="text-decoration:underline;text-decoration-color:#b9ff66">Earned</span></h2>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card l reveal rd1">
+        <div class="cert-issuer-row"><div class="cert-logo">🟢</div><div><div class="cert-org">NVIDIA DLI</div><div class="cert-when">November 22, 2025</div></div></div>
+        <div class="cert-title">Fundamentals of Deep Learning</div>
+        <div class="cert-desc">Neural networks, ML framework programming and core AI concepts. Completed via NVIDIA's Deep Learning Institute online program.</div>
+      </div>
+      <div class="cert-card d reveal rd2">
+        <div class="cert-issuer-row"><div class="cert-logo">🟢</div><div><div class="cert-org">NVIDIA DLI</div><div class="cert-when">November 23, 2025</div></div></div>
+        <div class="cert-title">Building Transformer-Based NLP Applications</div>
+        <div class="cert-desc">NLP development with Transformer architectures — BERT, GPT models, data preprocessing and real-world integration.</div>
+      </div>
+      <div class="cert-card w reveal rd3">
+        <div class="cert-issuer-row"><div class="cert-logo">🚀</div><div><div class="cert-org">APII Mahdia</div><div class="cert-when">January 2026</div></div></div>
+        <div class="cert-title">Innovation, Entrepreneurship &amp; Agile Methodologies</div>
+        <div class="cert-desc">Startup ecosystems, Lean/Business Canvas, Agile/Scrum, financial feasibility, pitching and digital branding.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-pt section-pb">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="reveal">
+        <span class="pill-dark pill" style="margin-bottom:24px;display:inline-flex">06 · Contact</span>
+        <h3>Let's Work<br><span>Together →</span></h3>
+        <p>Have a project, opportunity, or just want to say hi? I'm always open to new adventures. Drop me a message and I'll get back to you quickly!</p>
+        <div class="contact-links">
+          <a href="mailto:bakir.kammoun22@gmail.com" class="c-link" id="cl-email"><div class="c-link-ic">✉️</div><div><div class="c-link-lbl">Email</div><div class="c-link-val">bakir.kammoun22@gmail.com</div></div></a>
+          <a href="tel:+21696261972" class="c-link" id="cl-phone"><div class="c-link-ic">📞</div><div><div class="c-link-lbl">Phone / WhatsApp</div><div class="c-link-val">+216 96 261 972</div></div></a>
+          <a href="https://github.com/bakirkammoun" target="_blank" rel="noopener" class="c-link" id="cl-gh"><div class="c-link-ic">⌥</div><div><div class="c-link-lbl">GitHub</div><div class="c-link-val">github.com/bakirkammoun</div></div></a>
+          <a href="https://www.linkedin.com/in/bakir-kammoun-399984383/" target="_blank" rel="noopener" class="c-link" id="cl-li"><div class="c-link-ic">💼</div><div><div class="c-link-lbl">LinkedIn</div><div class="c-link-val">bakir-kammoun-399984383</div></div></a>
+          <a href="https://www.instagram.com/bakir__k_ammoun/" target="_blank" rel="noopener" class="c-link" id="cl-ig"><div class="c-link-ic">📸</div><div><div class="c-link-lbl">Instagram</div><div class="c-link-val">@bakir__k_ammoun</div></div></a>
+        </div>
+      </div>
+      <div class="contact-form-box reveal rd3">
+        <div class="form-title">Send a Message ✉️</div>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group"><label for="f-name">Name</label><input type="text" id="f-name" class="form-control" placeholder="Your name" required autocomplete="name"/></div>
+            <div class="form-group"><label for="f-email">Email</label><input type="email" id="f-email" class="form-control" placeholder="your@email.com" required autocomplete="email"/></div>
+          </div>
+          <div class="form-group"><label for="f-subject">Subject</label><input type="text" id="f-subject" class="form-control" placeholder="Project idea / opportunity..."/></div>
+          <div class="form-group"><label for="f-msg">Message</label><textarea id="f-msg" class="form-control" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea></div>
+          <button type="submit" class="btn btn-dark form-submit btn-arrow" id="form-submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Bakir<span class="dot"></span>dev</div>
+      <nav class="footer-nav">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a><a href="#projects">Projects</a><a href="#certifications">Certs</a><a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2025 <span>Bakir Kammoun</span> · Made with ♥ in Tunisia</p>
+    </div>
+  </div>
+</footer>
+
+<button id="scroll-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
