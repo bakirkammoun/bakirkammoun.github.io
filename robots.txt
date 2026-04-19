@@ -1,5 +1,5 @@
 # robots.txt — Bakir Kammoun Portfolio
-# https://bakirkammoun.github.io/portfolio-bakir/
+# https://bakirkammoun.github.io/
 
 User-agent: *
 Allow: /
@@ -22,4 +22,4 @@ User-agent: MJ12bot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://bakirkammoun.github.io/portfolio-bakir/sitemap.xml
+Sitemap: https://bakirkammoun.github.io/sitemap.xml
