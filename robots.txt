@@ -1,0 +1,25 @@
+# robots.txt — Bakir Kammoun Portfolio
+# https://bakirkammoun.github.io/portfolio-bakir/
+
+User-agent: *
+Allow: /
+
+# Allow all image crawlers explicitly
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block irrelevant crawler bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://bakirkammoun.github.io/portfolio-bakir/sitemap.xml

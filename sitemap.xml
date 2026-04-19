@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!--
+    Sitemap for Bakir Kammoun Portfolio
+    URL: https://bakirkammoun.github.io/portfolio-bakir/
+    Generated: 2026-04-19
+    Includes: Google Image Sitemap Extension (image:image)
+    Docs: https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
+  -->
+
+  <!-- ============================================================
+       MAIN PAGE
+       Single-page portfolio — all sections live on index.html
+       ============================================================ -->
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- ── Hero Profile Photo ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/bakir-kammoun-profile.jpg</image:loc>
+      <image:title>Bakir Kammoun — Full-Stack &amp; WebGL Developer | Tunisia</image:title>
+      <image:caption>Bakir Kammoun, Full-Stack Web and WebGL Developer from Sidi Bouzid, Tunisia. Specialized in React, Django, Spring Boot, Unity and IoT.</image:caption>
+      <image:geo_location>Sidi Bouzid, Tunisia</image:geo_location>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Gallery: Graduation ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/bakir-kammoun-graduation.jpg</image:loc>
+      <image:title>Bakir Kammoun — ISET Mahdia Graduation &amp; Academic Achievement</image:title>
+      <image:caption>Bakir Kammoun graduating from ISET Mahdia with a Bachelor's degree in IT: Multimedia &amp; Web Development (2022–2025).</image:caption>
+      <image:geo_location>Mahdia, Tunisia</image:geo_location>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Gallery: Lifestyle 1 ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/bakir-kammoun-lifestyle-1.jpg</image:loc>
+      <image:title>Bakir Kammoun — Developer at Work</image:title>
+      <image:caption>Bakir Kammoun coding and working on full-stack web development projects.</image:caption>
+      <image:geo_location>Tunisia</image:geo_location>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Gallery: Lifestyle 2 ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/bakir-kammoun-lifestyle-2.jpg</image:loc>
+      <image:title>Bakir Kammoun — Professional Developer Portrait</image:title>
+      <image:caption>Professional headshot and portrait of Bakir Kammoun, Full-Stack Developer from Tunisia.</image:caption>
+      <image:geo_location>Tunisia</image:geo_location>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Gallery: Lifestyle 3 ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/bakir-kammoun-lifestyle-3.jpg</image:loc>
+      <image:title>Bakir Kammoun — Digital Entrepreneur &amp; Tech Visionary</image:title>
+      <image:caption>Bakir Kammoun as a digital entrepreneur and tech innovator from Tunisia, combining IoT, AI, and full-stack web development.</image:caption>
+      <image:geo_location>Tunisia</image:geo_location>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Project: Three.js 3D Games ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/proj_threejs.png</image:loc>
+      <image:title>Bakir Kammoun — Three.js 3D Game Project</image:title>
+      <image:caption>Bakir Kammoun's 3D game project built with Three.js and WebGL — interactive browser-based 3D experiments with particle effects and physics simulation.</image:caption>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Project: E-Learning Platform ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/proj_elearning.png</image:loc>
+      <image:title>Bakir Kammoun — E-Learning Platform Project</image:title>
+      <image:caption>E-learning platform developed by Bakir Kammoun using React, Node.js, Express and MongoDB — featuring Admin, Teacher and Student portals with course management.</image:caption>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Project: IoT Predictive Maintenance ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/proj_iot.png</image:loc>
+      <image:title>Bakir Kammoun — IoT Smart Predictive Maintenance Project</image:title>
+      <image:caption>Bakir Kammoun's IoT predictive maintenance system using ESP32, MQTT protocol, React dashboard and machine learning for industrial equipment failure prediction.</image:caption>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Project: MERN Real-Time Chat ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/proj_chat.png</image:loc>
+      <image:title>Bakir Kammoun — MERN Real-Time Chat App</image:title>
+      <image:caption>MERN stack real-time chat application by Bakir Kammoun — instant messaging with WebSocket (Socket.IO), MongoDB, Express, React and Node.js.</image:caption>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Project: React Posts with Filter ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/proj_react_posts.png</image:loc>
+      <image:title>Bakir Kammoun — React Posts &amp; Filtering App</image:title>
+      <image:caption>React experience posts application by Bakir Kammoun with advanced filtering by category, date and popularity — responsive SCSS-styled UI.</image:caption>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+    <!-- ── Project: Hotel Reservation Angular ── -->
+    <image:image>
+      <image:loc>https://bakirkammoun.github.io/portfolio-bakir/proj_hotel.png</image:loc>
+      <image:title>Bakir Kammoun — Angular Hotel Reservation System</image:title>
+      <image:caption>Hotel reservation management system developed by Bakir Kammoun using Angular and TypeScript — full CRUD operations for bookings, rooms and availability.</image:caption>
+      <image:license>https://bakirkammoun.github.io/portfolio-bakir/</image:license>
+    </image:image>
+
+  </url>
+
+  <!-- ============================================================
+       SECTION ANCHORS
+       Listed as alternate URLs for section-level deep linking.
+       ============================================================ -->
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#about</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#skills</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#experience</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#gallery</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#projects</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#certifications</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bakirkammoun.github.io/portfolio-bakir/#contact</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
